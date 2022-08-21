@@ -24,6 +24,6 @@ app.post('/posts', (req, res)=>{
 	res.status(201).send(posts[id]);
 
 });
-app.listen(3000, ()=>{
-	    console.log('Server is running on port 3000');
+app.listen(4000, ()=>{
+	    console.log('Server is running on port 4000 post service');
 })
